@@ -1,0 +1,48 @@
+:root {
+  --mainBlue: #2a2a72;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainGray: #85929e;
+  --mainRed: #c72d22;
+}
+body {
+  font-family: 'Electrolize', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title {
+  font-family: 'Staatliches', cursive !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainRed);
+}
+.text-bright {
+  color: var(--mainRed);
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2 rem;
+  color: var(--mainRed);
+}
+.navbar-brand {
+  padding: 0 !important;
+  height: 4rem;
+}
+
+.logo {
+  margin: 0 !important;
+}
